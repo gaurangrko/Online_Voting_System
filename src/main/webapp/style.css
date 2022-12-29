@@ -1,0 +1,158 @@
+
+body{
+	margin:0;
+	background-image: url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410_960_720.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:Helvetica;
+	margin-bottom:30px;
+   
+}
+
+
+nav {
+	background-color:orange;
+	font-size:35px;
+	color:white;
+	display: flex;
+	justify-content:right;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+
+
+nav a{
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+
+nav a:hover{
+	color:black;
+}
+
+.form-container{
+	background-color:#FEFCF3;
+	font-size:35px;
+	width:40%;
+	display:flex;
+	justify-content:center;
+	margin-left:54%;
+	margin-top:12%;
+	border-radius:40px;
+	padding-bottom:20px;
+	opacity:0.8;
+} 
+
+
+.form-container input,textarea,select{
+	width:70%;
+	height:40px;
+	font-size:25px;
+	background-color:#009EFF;
+	text-align:center;
+		border-radius:20px;
+		margin-left:20%;
+		margin-bottom:25px;
+}
+
+.form-container button{
+	width:72%;
+	height:40px;
+	margin-top:25px;
+	font-size:25px;
+	background-color:limegreen;
+	text-align:center;
+	border-radius:20px;
+	margin-left:20%;
+	margin-bottom:35px;
+	
+}
+
+.form-container label{
+	margin-left:21%;
+	
+}
+
+.form-container h3{
+	margin-top:15%;
+	 
+}    
+
+.form-container a{
+	margin-left:48%;
+	color:black;
+}
+
+
+.form-container a:hover{
+	color:#009EFF;
+}
+
+.form-container button{
+	cursor:pointer;
+}
+
+.about {
+	font-family:Helvetica;
+	font-size: 35px;
+	width:100vx;
+	height:85vh;
+	padding-left:30px;
+	opacity:0.8;
+	background-color:#FEFCF3;
+}
+
+
+.about p{
+	padding-top:40px;
+	font-weight: bold;
+}
+
+
+.about img{
+	width:25%;
+	height:35%;
+	margin-right:10px;
+	margin-top:130px;
+
+}
+
+.head{
+	margin-left:27%;
+}
+
+.welcomeForm{
+	padding-right:25%;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+.checkTable{
+	background-color:#FFF7E9;
+	height:87vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:35px;
+}
+
+.checkTable img{
+	height: 100px;
+	width: 100px;
+}
+
+.checkTable td,th{
+	padding: 10px 60px;
+}
+
+
+.form-container h3{
+	padding-bottom:8%;
+}
+
+.welcomeForm h2{
+	margin-left: 50px;
+}
